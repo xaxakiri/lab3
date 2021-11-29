@@ -35,5 +35,13 @@ public abstract class Equipment {
     public int hashCode() {
         return Objects.hash(name, material);
     }
+
+    @Override
+    public String toString() {
+        return "Equipment{" +
+                "name='" + name + '\'' +
+                ", material=" + material +
+                '}';
+    }
 }
 
